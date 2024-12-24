@@ -1,0 +1,54 @@
+/* Hero Section */
+.hero {
+    color: black;
+    text-align: center;
+    padding: 100px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.hero .button.primary {
+    background: #ff5e5b;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 30px;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    letter-spacing: 1.5px;
+}
+
+.hero .button.primary:hover {
+    letter-spacing: 3px;
+    background-color: hsl(0, 80%, 48%);
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(220, 24, 24) 0px 7px 29px 0px;
+}
+
+.hero .button.primary:active {
+    letter-spacing: 3px;
+    background-color: hsl(0, 80%, 48%);
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(220, 24, 24) 0px 0px 0px 0px;
+    transform: translateY(10px);
+    transition: 100ms;
+}
+
+#map {
+    width: 100%;
+    height: 100px;
+    border: 2px solid #ccc;
+}  

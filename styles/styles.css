@@ -1,0 +1,187 @@
+/* Basic Reset */
+body, h1, h2, h3, p, ul, li, a, img {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 20%, rgba(254,254,254,1) 22%, rgba(201,201,201,1) 100%);
+}
+
+/* Header Styles */
+.site-header {
+    background: #131313;
+    color: #fff;
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navigation-panel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.navigation-panel > * {
+    margin-bottom: 15px;
+}
+
+.navigation-panel > *:last-child {
+    margin-bottom: 0;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 30px;
+    padding: 5px 15px;
+    width: 300px;
+}
+
+.search-bar input {
+    border: none;
+    outline: none;
+    flex: 1;
+    padding: 5px;
+    font-size: 1rem;
+    color: #333;
+}
+
+.search-bar button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.search-bar button img {
+    height: 20px;
+    width: 20px;
+}
+
+.logo img {
+    height: 130px;
+    width: 210px;
+    border-radius: 30px;
+}
+
+.nav-actions {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.nav-actions .buttonLogin, .nav-actions .buttonCart {
+    background: white;
+    color: black;
+    padding: 8px 20px;
+    border-radius: 30px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 1.5px;
+    transition: all 0.5s ease;
+}
+
+.nav-actions .buttonLogin:hover {
+    letter-spacing: 3px;
+    background-color: hsl(261deg 80% 48%);
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(93 24 220) 0px 7px 29px 0px;
+}
+
+.nav-actions .buttonLogin:active {
+    letter-spacing: 3px;
+    background-color: hsl(261deg 80% 48%);
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(93 24 220) 0px 0px 0px 0px;
+    transform: translateY(10px);
+    transition: 100ms;
+}
+
+.nav-actions .buttonCart:hover {
+    background-color: hsl(0, 80%, 48%);
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(220, 24, 24) 0px 7px 29px 0px;
+}
+
+.nav-actions .buttonCart:active {
+    background-color: hsl(0, 80%, 48%);
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(220, 24, 24) 0px 0px 0px 0px;
+    transform: translateY(10px);
+    transition: 100ms;
+}
+
+.nav-actions .buttonCart img {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+}
+.nav-actions .buttonLogin img:hover {
+    background-image: url('images/shopping.png');
+}
+
+/* footer */
+.site-footer {
+    background: #242424;
+    color: #fff;
+    padding: 40px 20px;
+}
+
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+.footer-about, .footer-links, .footer-contact {
+    flex: 1;
+    min-width: 250px;
+}
+
+.footer-links ul {
+    padding: 20px 0;
+}
+
+.footer-links a {
+    color: #fff;
+    font-size: 0.9rem;
+}
+
+.footer-links a:hover {
+    color: #ff5e5b;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.8rem;
+    color: #ccc;
+}
+
+.footer-contact a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-contact a:hover {
+    color: #ff5e5b;
+    text-decoration: underline;
+}

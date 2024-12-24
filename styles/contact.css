@@ -1,0 +1,67 @@
+/* Contact Us Container Styles */
+.contact-us-container {
+    background: #f9f9f9;
+    padding: 60px 20px;
+    text-align: center;
+    color: #333;
+}
+
+.contact-us-container h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #242424;
+}
+
+.contact-us-container p {
+    font-size: 1rem;
+    margin-bottom: 30px;
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+.contact-us-form {
+    max-width: 400px;
+    margin: 0 auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.contact-us-form label {
+    font-size: 1rem;
+    display: block;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.contact-us-form input, .contact-us-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.contact-us-form input:focus, .contact-us-form textarea:focus {
+    border-color: #ff5e5b;
+}
+
+.contact-us-form button {
+    background: #ff5e5b;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-us-form button:hover {
+    background: #d14542;
+}
